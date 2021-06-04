@@ -2,7 +2,8 @@
 	"extends": "@tsconfig/node14/tsconfig.json",
 	"compilerOptions": {
 		"outDir": "dist",
-		"rootDir": "src"
+		"rootDir": "src",
+		"lib": ["esnext", "dom"]
 	},
 	"include": ["src"]
 }
